@@ -89,7 +89,7 @@ window.onload = function() {
 			for(var i=l; i<l+Math.sqrt(width_*width_+height_*height_); i++){
 				particles[i] = new Particle();
 				particles[i].pos[0] = f.pageX;
-				particles[i].pos[1] = f.pageX;
+				particles[i].pos[1] = f.pageY;
 			}
 		})	
 		
